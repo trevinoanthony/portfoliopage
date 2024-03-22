@@ -1,0 +1,32 @@
+1 page website with vertical scrolling and displaying different sections.
+Inspiration from https://tamalsen.dev/
+
+mobile responsive 1page website.
+sections 
+1. home/hero
+2. expertise - which technologies I work with
+3. work - best two-three projects ive made
+4. experience/testimonials
+contact - simple statement about what I'm looking for work-wise, email, socials.
+
+nav - horizontal layout in wide screens, hamburger in mobile width.
+page animation to redirect to different page sections, sticks to top of page below the initial 100vh.
+-make burger icon more visible, and larger.
+-revisit a solution to keep the scrollbar from spilling onto page content(header)
+
+
+hero - eye catching font in foreground, high contrasting background
+attention grabbing animation to guide the user to scroll down the page
+
+
+color scheme:
+dark background,
+dark purple background for every other section row
+White, off-white, and light-gray for font-color.
+light blue for font emphasis
+
+Polish:
+revisit Projects section to display cards better at smaller screen widths.
+
+
+

@@ -1,0 +1,629 @@
+/* Core website container styling below */
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #d1c49e;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+/*
+.headerbgcolor {
+    background-color: #584131;
+}
+*/
+
+.lighter {
+    background-color: #FAF9FF;
+}
+
+.bodybackgroundcolor {
+    background-color: #d1c49e;
+}
+
+
+
+.container, #container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	 background-color: #333333; 
+}
+
+.container *, #container * {
+	box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 267px;
+}
+
+#banner1 img {
+    width: 720px;
+    height: 270px;
+}
+
+#banner2 img {
+    width: 240px;
+    height: 270px;
+}
+
+/*changed #sidebar to .sidebar AT-10/17/23*/
+
+.sidebar {
+	background-color: #333333;
+	width: 150px;
+	float: left;
+	padding: 20px 0px;
+}
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+}
+
+    .sidebar ul li {
+        width: 100%;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        display: block;
+        word-break: break-word;
+        /*white-space:nowrap;*/
+    }
+
+.sidebar ul li a{
+    width:100%;
+    display:inline-block;
+}
+
+.wellfleet18px{
+    font-family:"Wellfleet", serif;
+    font-size:18px;
+}
+
+main, .main, .main1 {
+	width: 810px;
+	padding: 30px 30px;
+	background-color: #ffffff;
+	float: left;
+}
+
+/*annabelle footer styling*/
+footer, #footer {
+    float: none;
+    clear: both;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    height: auto;
+    font-size: 13px;
+}
+
+    footer h4 {
+        margin-top: 0;
+    }
+
+    footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+#footerLinks {
+    float: left;
+    text-align: left;
+}
+
+#mobileAd {
+    float: right;
+    text-align: right;
+}
+
+    #mobileAd img {
+        width: 100px;
+        height: 100px;
+        float: right;
+        display: block;
+    }
+
+#copyright {
+    float: none;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+footer ul li {
+    line-height: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #50c000;
+}
+
+    footer a:hover {
+        color: #ffffff;
+    }
+
+/*annabelle footer styling*/
+
+
+/* annabelle homepage styling */
+#homeTop {
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+#homeTop img {
+	float:right;
+	height: 200px;
+	width: 300px;
+}
+#homeApp {
+	margin-top: 60px;
+}
+#homeTopText, #homeAppText {
+	float: left;
+	width: 450px;
+}
+#homeTop h1 {
+	font-size: 30px;
+	margin-top: 0;
+}
+#howToID {
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	background-color: #584131;
+	padding: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+	transition: background-color 0.2s;
+}
+#howToID:hover {
+	background-color: #50c000;
+}
+/* annabelle homepage styling */
+
+/* Ecoregion Page styles */
+#ecoMapContainer {
+	width: 100%;
+	height: 400px;
+	background-color: #EFF0D9;
+	padding-top: 25px;
+	margin-bottom: 50px;
+}
+#ecoMap {
+	width: 358px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+#ecoMap img {
+	width: 358px;
+	height: 350px;
+	border: 0;
+}
+
+.ecoRow {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: space-around;
+	justify-content: space-between;
+	text-align: center;
+	column-gap: 10px;
+	row-gap: 10px;
+	width: 100%;
+}
+.eco {
+	display: block;
+	height: 175px;
+	width: 175px;
+	background-color: #EFF0D9;
+	float: left;
+	color: #008000;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+.eco img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 0;
+}
+.eco p {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 3px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.h1content {
+    font-family: 'Wellfleet', serif;
+    letter-spacing:2px;
+    font-size:30px;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+
+.h2content {
+    display:block;
+    font-family: 'Wellfleet', serif;
+    letter-spacing:2px;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+
+.h3content{
+    display:block;
+    font-family: "Wellfleet", serif;
+    letter-spacing:2px;
+    font-size:16px;
+    margin-top:10px;
+    margin-bottom:5px;
+    padding-top:30px;
+}
+
+.h2imgbanner {
+    height: 40px;
+    width: 90%;
+    line-height: 40px;
+    background-color: green;
+   border-radius:60px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin:auto;
+}
+
+.h2spanrow{
+    position:relative;
+    top:auto;
+    top:auto;
+    left:0;
+    text-align:center;
+}
+
+.zindex2{
+    z-index:2;
+}
+
+.browncolor {
+    color: rgba(26,138,11,1);
+    text-shadow: 1px 1px black;
+}
+
+.whitecolor{
+    color:#ffffff;
+}
+
+/*
+.anchorbacktotop{
+    margin-top:-20px;
+}
+*/
+
+.divbacktotop{
+    margin-top:-10px;
+}
+
+.spanbacktotop {
+    /* text-decoration:underline;*/
+    /*margin-top:-40px;*/
+}
+
+.spanbacktotop:hover{
+    text-decoration:none;
+}
+
+.spanemphasis{
+  
+    font-size: 15px;
+    
+}
+
+.sameline{
+    display:inline-block;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.contentdiv{
+   display:block;
+   justify-content:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:50px;
+
+    
+}
+
+.pcontent {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    width: 100%;
+    display: block;
+  /*  background-color: #ffffff; */
+    /*background-color:#faf9f5; */
+}
+
+/*added new styles to override margin-bottom and margin-top for the Q and A section*/
+.question{
+    margin-bottom:0px;
+}
+
+.answer{
+    margin-top:5px;
+}
+/*added new styles to override margin-bottom and margin-top for the Q and A section*/
+
+.hrcontentbreak{
+    width:100%;
+   
+    
+    margin-bottom:50px;
+    
+}
+
+/* trying new column approach*/
+
+/*
+main width datalist 810px
+
+2 columns evenly split evenly 405
+try middle gap color-profile 30px 
+    */
+
+
+/*
+.container810{
+    max-width:810px;
+    display:flex;
+    background-color:green;
+}
+*/
+
+.left-column{
+    flex:1;
+    max-width:405px;
+    padding:20px;
+
+}
+
+.right-column{
+    flex:1;
+    max-width:405px;
+    padding:20px;
+}
+
+.headingabsolute{
+    background-color:green;
+    position:absolute;
+    width:80%;
+    margin:-20px 0;
+    padding:20px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* trying new column approach*/
+
+
+.inline{
+    display:inline;
+}
+
+.width50percent{
+    width:50%;
+}
+
+.row{
+    display:block;
+}
+
+
+.divcolumn50percent {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border-radius:60px;
+    margin-bottom:30px;
+    /*height: 300px;*/
+    /*flex:50 %; */
+   
+}
+
+.contentul{
+    width:100%;
+ display:block;
+    float:left;
+    text-align:left;
+}
+
+.contentul li{
+    padding:5px;
+    width:100%;
+}
+
+.floatleft{
+    float:left;
+}
+
+.floatright{
+    float:right;
+    
+
+}
+
+.clearboth{
+    clear:both;
+}
+
+.topmargin20{
+    margin-top:20px;
+}
+
+.imgrightmargin{
+   width:320px;
+   margin-right:-30px;
+
+}
+
+.center{
+    text-align:center;
+    margin-right:0px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.margin-top30px{
+    margin-top:30px;
+}
+
+.divfloatleft{
+    float:left;
+    width:30px;
+}
+
+
+<!-- HTML ! -->
+<button class="button-2" role="button" > Button 2</button >
+/* CSS */
+.button-2 {
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+/* ^Core website container styling  */
+
+
+
+/* Testing How to ID page styles below: */
+	table{
+width:750px;
+/* Prefer less border spacing */
+border-spacing:3px;
+/* Prefer more border spacing */
+/* border-spacing:5px; */
+
+margin-bottom:5px;
+	}
+
+table,th,td a{
+	text-decoration:none;
+    color: black;
+}
+
+.underline{
+    text-decoration:underline;
+    text-underline-position:below;
+    text-underline-offset:3px;
+   
+}
+
+.nounderline {
+    text-decoration: none;
+    /*color:black;*/
+}
+	
+		th,tr{
+			width:50%;
+		}
+
+		tr{
+			height:30px;
+			text-align:center;
+			
+		}
+
+		tr:hover{
+			cursor:pointer;
+		}
+
+		td{
+			/* margin:5px; */
+			width:50%;
+		}
+		
+	
+
+		.tablerow1{
+			background-color:#86B702;
+		}
+
+		.tablerow2{
+			background-color: #A3BE36;
+		}
+		.tablerow3{
+			background-color: #b7cf56;
+		}
+		.tablerow4{
+			background-color: #C8DA7E;
+		}
+		.tablerow5{
+			background-color: #CFE8A0;
+		}
+		.tablerow6{
+			background-color: #D9FFB3;
+		}
+		.tablerow7{
+			background-color: #E8FFD1;
+		}
+		.tablerow8{
+			background-color: #ecffd9;
+		}
+		
+
+/* ^Testing How to ID page styles ^ */

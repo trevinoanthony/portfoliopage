@@ -1,0 +1,19 @@
+Make Page design in html and css
+*try flexbox grid for content sections using (https://css-tricks.com/dont-overthink-flexbox-grids/)
+
+*use scss from css-tricks for mobile view stacking*
+
+hero image + hero heading 
+
+section1-top half of page
+	- cool nav: include a mouseover effect to bring up a navigation or some aside with details.
+-black background color with gradient fade to blue or something gray
+-add gradient
+
+-stylize a hr to separate sections
+
+section2-2nd half of page
+-
+
+section3- footer
+
